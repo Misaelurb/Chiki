@@ -1,0 +1,134 @@
+.LogoItla{
+    width: 250px;
+    
+}
+.Logo{
+    position: relative;
+    width: 210px;
+    margin-top: 1rem;
+    left: 400px;
+}
+
+nav{
+    background-color:#023877;
+    margin-bottom: 2rem;
+}
+.nav-link{
+    font-size: 15px;
+}
+li:hover{
+    background-color: #120467;
+}
+.deportes-destacados,.noticias-recientes{
+    color:  #023877;
+}
+.card{
+    width: 12rem;
+    margin-top: 2rem;
+}
+.noticias{
+    list-style: none;
+    text-decoration: none;
+    color: #023877;
+}
+
+
+.contenedor {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    right: 10px;
+    background-image: url(../img/Fotos/baloncesto.jpg);
+}
+
+.contenedor h2{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+
+a {
+    font-size: 14px;
+
+    color: white;
+
+    text-decoration: underline;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+a, a.disciplinas:hover {
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+.contenedor span {
+    color: white; 
+    font-size: 14px;
+}
+
+a.disciplinas{
+    color: #00BFFF;
+}
+
+.contenedortext p{
+    max-width: 600px;
+    margin: 5 auto;
+    text-align: justify;   
+}
+
+.contenedortext h2{
+    margin-top: 30px;
+    font-family: Inter;
+    color: #19097e;
+    display: flex;
+}
+
+.contenedorlogros h2{
+    margin-top: 20px;
+    color: #19097e;
+}
+
+.imgbaloncesto{
+    margin-top: 30px;
+}
+
+.parrafo-estilo-1{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
+
+.parrafo-estilo-2{
+    max-width: 600px;
+    margin: 5 auto;
+    text-align: justify;   
+}
+
+.logoitlafinal {
+    margin-top: 30px;
+    width: 290px;
+}
+
+.input {
+    position: relative;
+    height: 27px;
+    float: right;
+    margin-top: 60px;
+    right: 35px;
+}
