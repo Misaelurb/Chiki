@@ -177,12 +177,17 @@ a.disciplinas{
     font-size: 30px;
 }
 
-.main-container{
+.section-container{
     display: flex;
     flex-direction: column;
     padding-left: 50px;
     gap: 20px;
     width: 40vw;
+}
+
+.main-container{
+    display: flex;
+    gap: 200px;
 }
 
 footer{

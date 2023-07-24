@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css"
     integrity="sha512-PvB3Q4vTvWD/9aiiELYI3uebup/4mtou3Mc/uGudC/Zl+C9BdKUkAI+5jORfA+fvLK4DpzC5VyEN7P2kK43hjg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/calendar.css">
     <title>Baloncesto</title>
 </head>
 <body>
@@ -57,15 +59,73 @@
     </div>
 
     <div class="main-container">
-        <div class="contenedortext">
-            <h2><b>HISTORIA DEL BALONCESTO</b></h2>
-            <P>En el año 1940, Máximo Llaverías Martí, un gran entusiasta que llegó a la inmortalidad deportiva por sus esfuerzos a favor de la desciplina, fundó la Asociación Dominicana de Basketball. Pero fue Virgilio Travieso Soto, discípulo aventajado de Llaverías Martí, quien daría los pasos concretos para la creación de una sólida entidad qeu integrara a todos los actuanes del baloncesto nacional.</P>
+        <div class="section-container">
+            <div class="contenedortext">
+                <h2><b>HISTORIA DEL BALONCESTO</b></h2>
+                <P>En el año 1940, Máximo Llaverías Martí, un gran entusiasta que llegó a la inmortalidad deportiva por sus esfuerzos a favor de la desciplina, fundó la Asociación Dominicana de Basketball. Pero fue Virgilio Travieso Soto, discípulo aventajado de Llaverías Martí, quien daría los pasos concretos para la creación de una sólida entidad qeu integrara a todos los actuanes del baloncesto nacional.</P>
+            </div>
+            <div class="contenedorlogros">
+                <h2><b>LOGROS</b></h2>
+                <div class="col"><img class="imgbaloncesto" src="img/Fotos/balocensto2.jpg" alt="baloncesto2"></div>
+                <p class="parrafo-estilo-1"> Itla &nbsp &nbsp 28 de junio de 2023 &nbsp&nbsp Noticias</p>
+                <p class="parrafo-estilo-2"> La Universidad Tecnológica del Cibao Oriental (UTECO) ganó el torneo de baloncesto universitario 3x3 organizado por el Ministerio de Deportes en Santo Domingo. En la rama masculina, UTECO se coronó campeona al vencer a la Universidad Católica de Santo Domingo (UCSD) en la final. En la rama femenina, el Instituto Tecnológico de las Américas (ITLA) se llevó el título al ganarle a la Universidad Católica Nordestana (UCNE). El torneo contó con la participación de varias universidades y se llevó a cabo en el polideportivo Tony Barreiro de la Universidad Autónoma de Santo Domingo. La competencia ha tenido una buena acogida y se espera que más universidades participen en futuras ediciones.</p>
+            </div>
         </div>
-        <div class="contenedorlogros">
-            <h2><b>LOGROS</b></h2>
-            <div class="col"><img class="imgbaloncesto" src="img/Fotos/balocensto2.jpg" alt="baloncesto2"></div>
-            <p class="parrafo-estilo-1"> Itla &nbsp &nbsp 28 de junio de 2023 &nbsp&nbsp Noticias</p>
-            <p class="parrafo-estilo-2"> La Universidad Tecnológica del Cibao Oriental (UTECO) ganó el torneo de baloncesto universitario 3x3 organizado por el Ministerio de Deportes en Santo Domingo. En la rama masculina, UTECO se coronó campeona al vencer a la Universidad Católica de Santo Domingo (UCSD) en la final. En la rama femenina, el Instituto Tecnológico de las Américas (ITLA) se llevó el título al ganarle a la Universidad Católica Nordestana (UCNE). El torneo contó con la participación de varias universidades y se llevó a cabo en el polideportivo Tony Barreiro de la Universidad Autónoma de Santo Domingo. La competencia ha tenido una buena acogida y se espera que más universidades participen en futuras ediciones.</p>
+        <div class="section-container">
+            <div class="container_calendar">
+                <div class="header_calendar">
+                    <h1 id="text_day">00</h1>
+                    <h5 id="text_month">Null</h5>
+                </div>
+                <div class="body_calendar">
+                    <div class="container_details">
+                        <div class="detail_1">
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_2">
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_change_month">
+                        <button id="last_month">&lt;</button>
+                        <div>
+                            <span id="text_month_02">Null</span>
+                            <span id="text_year">0000</span>
+                        </div>
+                        <button id="next_month">&gt;</button>
+                    </div>
+                    <div class="container_weedays">
+                        <span class="week_days_item">DOM</span>
+                        <span class="week_days_item">LUN</span>
+                        <span class="week_days_item">MAR</span>
+                        <span class="week_days_item">MÍE</span>
+                        <span class="week_days_item">JUE</span>
+                        <span class="week_days_item">VIE</span>
+                        <span class="week_days_item">SÁB</span>
+                    </div>
+                    <div class="container_days">
+                        <span class="week_days_item item_day"></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <hr>
@@ -84,5 +144,7 @@
             <img width="500px" src="img/Fotos/final.PNG" alt="">
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/controllers/script.js"></script>
 </body>
 </html>
