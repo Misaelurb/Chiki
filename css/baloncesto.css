@@ -1,6 +1,7 @@
 
 .LogoItla{
     width: 300px;
+    padding-left: 40px;
 }
 .Logo{
     position: relative;
@@ -34,22 +35,23 @@ li:hover{
 
 .contenedor {
     position: relative;
-    max-width: 900px;
-    margin: 0 auto;
     padding: 20px;
-    right: 10px;
+    width: 100vw;;
     background-image: url(../img/Fotos/baloncesto.jpg);
 }
 
 .contenedor h2{
-    font-family: Montserrat;
     font-size: 30px;
     font-weight: 800;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
+    color: #FFFFFF;;
+    margin-bottom: 0px;
+}
 
-    color: #FFFFFF;
+.contenedor div{
+    padding-left: 32px;
 }
 
 
@@ -79,6 +81,7 @@ a:hover {
 .contenedor span {
     color: white; 
     font-size: 14px;
+    
 }
 
 a.disciplinas{
@@ -86,37 +89,42 @@ a.disciplinas{
 }
 
 .contenedortext p{
-    max-width: 600px;
-    margin: 5 auto;
-    text-align: justify;   
+    text-align: left;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 35vw;
 }
 
 .contenedortext h2{
     margin-top: 30px;
-    font-family: Inter;
     color: #19097e;
     display: flex;
+    font-size: 34px;
 }
 
 .contenedorlogros h2{
     margin-top: 20px;
     color: #19097e;
+    font-size: 34px;
 }
 
 .imgbaloncesto{
     margin-top: 30px;
+    width: 100%;
 }
 
 .parrafo-estilo-1{
     margin-top: 5px;
     font-size: 14px;
     color: #888;
+    font-weight: 600;
 }
 
 .parrafo-estilo-2{
-    max-width: 600px;
-    margin: 5 auto;
-    text-align: justify;   
+    max-width: 35vw;
+    text-align: left;   
 }
 
 .logoitlafinal {
@@ -125,10 +133,10 @@ a.disciplinas{
 }
 
 .input{
-    width: 28%;
-    padding: 10px;
+    padding: 8px;
     border: 1px solid;
     background-color: #fffcfc;
+    padding-right: 45px;
 }
 
 .input-container{
@@ -137,10 +145,6 @@ a.disciplinas{
     margin-top: 15px;
     margin-right: 65px;
     justify-content: flex-end;
-}
-
-.input-container input {
-    padding-right: 30px;
 }
 
 .input-container .icon {
@@ -155,6 +159,34 @@ a.disciplinas{
 .img-container{
     display: flex;
     justify-content: flex-end;
-} 
+}
+
+.item-nav{
+    display: flex;
+    padding: 0px 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.item-nav-icon{
+    display: inline-block;
+    padding: 0px 15px;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 20px;
+    width: 40vw;
+}
+
+footer{
+    background-color: #FFFFFF !important;
+}
 
  
